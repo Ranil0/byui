@@ -3,6 +3,7 @@
 }
 body {
   background-color: #fcfbfb; 
+  background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); 
 }
 header {
   background-color:rgba(88, 167, 194, 0.7);
