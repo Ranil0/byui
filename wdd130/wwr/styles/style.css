@@ -18,9 +18,9 @@ nav a:hover {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 80px;
+}
 .icon{
-width: 80px;
-  }
+  width: 80px;
 }
 #content{
   max-width: 1600px;
