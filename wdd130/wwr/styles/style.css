@@ -2,8 +2,8 @@
   height: 725px;
 }
 body {
-  
-  background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); 
+  background-color: white;
+   
 }
 header {
   background-color:rgba(88, 167, 194, 0.7);
