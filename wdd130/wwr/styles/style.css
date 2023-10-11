@@ -33,4 +33,6 @@ text-decoration: underline;
 h1, h2, p {
   text-align: center;
 }
-
+.card-img{
+  width: 80px;
+}
