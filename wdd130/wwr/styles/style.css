@@ -14,10 +14,9 @@ nav a:hover {
 }
 
 .logo{
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   width: 300px;
+  display: inline-block;
+
 }
 .icon{
   width: 80px;
@@ -35,8 +34,6 @@ h1, h2, p {
 }
 .card-img{
   width: 300px; height: 300px;
-  margin-left: auto;
-  margin-right: auto;
 }
 hr{
   height: 2px;background-color: brown;
