@@ -16,7 +16,7 @@ nav a:hover {
 .logo{
   width: 300px;
   display: inline-block;
-
+  text-align: left;
 }
 .icon{
   width: 80px;
