@@ -40,3 +40,6 @@ hr{
   height: 2px;background-color: brown;
   border-color: brown;
 }
+main section img{
+  box-sizing: border-box;
+}
