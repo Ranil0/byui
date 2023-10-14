@@ -10,81 +10,83 @@ body {
   padding: 0;
 }
 header {
-  background-color:rgba(88, 167, 194, 0.7);
+  background-color: rgba(88, 167, 194, 0.7);
 }
-nav  a:hover {
+nav a:hover {
   background-color: white;
   text-decoration: none;
 }
-nav a{
+nav a {
   text-decoration: none;
-    color: green;
-    text-align: center;
-    padding: 35px;
+  color: green;
+  text-align: center;
+  padding: 35px;
 }
-.logo{
+.logo {
   width: 80px;
 }
-.icon{
+.icon {
   width: 80px;
   padding-top: 10px;
 }
-#content{
+#content {
   max-width: 1600px;
   text-align: center;
   margin: 0 auto;
 }
 footer p a:hover {
-	background-color: white;
-font-size: 1.2em;
-text-decoration: underline;
+  background-color: white;
+  font-size: 1.2em;
+  text-decoration: underline;
 }
-footer a{
-	text-decoration: none;
-	color: green;
+footer a {
+  text-decoration: none;
+  color: green;
 }
-footer{
-	background-color: gray;
-	margin-top: 200px;
-	padding: 25px 50px;
+footer {
+  background-color: gray;
+  margin-top: 200px;
+  padding: 25px 50px;
 }
-footer .social img{   
-padding-top: 15px;
+footer .social img {
+  padding-top: 15px;
 }
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
-h2{
+h2 {
   margin: 0;
 }
-.card-img{
+.card-img {
   border: 10px black;
 }
 
-main section img{
-
- box-sizing: border-box;
- text-align: center;
+main section img {
+  box-sizing: border-box;
+  text-align: center;
 }
 .home-title {
   color: green;
-  font-family: roboto, impact; 
+  font-family: roboto, impact;
   font-size: 2em;
   margin-top: 10px;
 }
-.msg  {
+.msg {
   background-color: #6f7364;
   line-height: 1.5em;
   padding: 35px;
 }
-.msg p{
-	color: aqua;
-	padding-bottom: 15px;
+.msg p {
+  color: aqua;
+  padding-bottom: 15px;
 }
-.msg h2{
-	color: green;
+.msg h2 {
+  color: green;
 }
-.book, .join {
+.book,
+.join {
   background-color: brown;
   color: aqua;
   text-decoration: none;
@@ -93,36 +95,37 @@ main section img{
   margin-top: 50px;
   border-radius: 5px;
 }
-.join{
-	border: 10px;
-	margin-top:50px;
+.join {
+  border: 10px;
+  margin-top: 50px;
 }
 
-
-
-.rivers-card, .camping-card, .rapids-card{
-	margin: 200px 0;
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 
-#hero-msg h1, #hero-msg h4{
-	text-align: center;
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
 }
-#hero-img{
-	width: 100%;
+#hero-img {
+  width: 100%;
 }
-.button-box{
-	text-align: center;
+.button-box {
+  text-align: center;
 }
-.book:hover, .join:hover{
-	background-color: blue;
-	
+.book:hover,
+.join:hover {
+  background-color: blue;
 }
-h4{
-	color: aqua;
+h4 {
+  color: aqua;
 }
-#logo_link {  
-padding-top: 5px;
+#logo_link {
+  padding-top: 5px;
 }
-.mountains{
-	padding-top: 25px;
+.mountains {
+  padding-top: 25px;
 }
