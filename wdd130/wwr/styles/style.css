@@ -81,6 +81,7 @@ main section img {
 .msg p {
   color: aqua;
   padding-bottom: 15px;
+  font-size: .8em;
 }
 .msg h2 {
   color: green;
