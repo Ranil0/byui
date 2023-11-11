@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Menu Maker-Contact us</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <div id="content">
+      <header>
+        <div class="logo-box">
+          <img
+            src="images/restaurant logo.png"
+            alt="Logo image"
+          />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="ranilo1.html">Home</a></li>
+            <li><a href="menu-designs.html">Menu Designs</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h2 class="contact">
+          Contact us Today!
+        </h2>
+        <div class="contact-grid">
+          
+          <div class="menu-contact-1">
+            <img
+              src="images/menu7.jpg"
+              alt="menu7"
+            />
+          </div>
+
+          <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </div>
+
+            <div>
+              <label for="mail">E-mail:</label>
+              <input
+                type="email"
+                id="mail"
+                name="user_mail"
+                placeholder="example@123.com"
+              />
+            </div>
+
+            <div>
+              <label for="cell">Cell <br>Number:</label>
+              <input
+                type="tel"
+                id="cell"
+                name="user_cell"
+                placeholder="(999)999-9999"
+              />
+            </div>
+
+            <div>
+              <label for="msg">Message:</label>
+              <textarea
+                id="msg"
+                name="user_message"
+                placeholder="Enter Questions/Menu Designs Here"
+              ></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send your message</button>
+            </div>
+
+            <div id="feedback"></div>
+          </form>
+          <div class="menu-contact-2">
+            <img
+              src="images/menu8.jpg"
+              alt="menu8"
+            />
+          </div>
+        </div>
+
+        <script>
+          // get the feedback div element so we can do something with it.
+          const feedbackElement = document.getElementById("feedback");
+          // get the form so we can read what was entered in it.
+          const formElement = document.forms[0];
+          // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+          formElement.addEventListener("submit", function(e) {
+            // stop the form from doing the default action
+            e.preventDefault();
+            feedbackElement.innerHTML =
+              "Hello " +
+              formElement.user_name.value +
+              "! Thank you for your message. We will get back with you as soon as possible!";
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle("moveDown");
+          });
+        </script>
+      </main>
+
+      <footer>
+        <p class="copy-write">
+          &copy; 2023 The Menu Maker - Ranilo Ator Policarpio - Section C1
+        </p>
+
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img
+              src="https://cdn.glitch.com/5625f419-0d98-4235-b8c3-13ac519fb03c%2Ffacebook.png?1548955546046"
+              alt="Facebook icon"
+            />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+					</a>
+          <a href="https://instagram.com" target="_blank">
+            <img
+              src="https://cdn.glitch.com/5625f419-0d98-4235-b8c3-13ac519fb03c%2Finstagram.png?1548955548861"
+              alt="Instragram icon"
+            />
+          </a>
+		   </a>
+		  Images by <a href="https://www.freepik.com/free-psd/menu-design-american-food_7437667.htm">Freepik</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
