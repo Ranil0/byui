@@ -192,6 +192,12 @@ footer .social img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+
+
+.rivers-card-faq, .camping-card-faq, .rapids-card-faq {
+    margin: 100px 0;
+}
+
 .card-img {
     border: 10px solid #4A4E69;
     transition: transform .5s;
@@ -228,6 +234,19 @@ footer .social img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.rivers-card-faq {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card-faq {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card-faq {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
