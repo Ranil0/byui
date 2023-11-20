@@ -181,7 +181,7 @@ footer {
 /*FAQ*/
 .FAQ-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr; /*number of colums i have*/
+  grid-template-columns: 1fr 1fr; 
 }
 
 .FAQ-banner-box{
