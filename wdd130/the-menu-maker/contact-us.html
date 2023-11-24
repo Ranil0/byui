@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Menu Maker-Contact us</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/ranilo1.css" />
   </head>
 
   <body>
@@ -19,7 +19,7 @@
 
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="ranilo1.html">Home</a></li>
             <li><a href="menu-designs.html">Menu Designs</a></li>
             <li><a href="contact-us.html">Contact us</a></li>
           </ul>
@@ -106,12 +106,80 @@
             document.body.classList.toggle("moveDown");
           });
         </script>
+		<section>
+		<p class="contact">Frequently Asked Questions</p>
+		</section>
+		<button class="accordion">
+          How much is the price for menu designs?
+        </button>
+        <div class="panel">
+          <p>
+            It really depends on your designs and how complicated they are, but we can assure you that our company
+			will charge the cheapest amongst other providers in your area of location.
+          </p>
+        </div>
+
+        <button class="accordion">
+          Does your company provide QR codes for our menu so that we can put them on dining tables for easy access
+		  from customers using their phones and tablets? 
+        </button>
+        <div class="panel">
+          <p>
+            Yes, we will provide you with it, but our QR codes come from third party applications in which we don't
+			have controls over it.
+          </p>
+        </div>
+        <button class="accordion">Can we trust your company regarding our orders? </button>
+        <div class="panel">
+          <p>
+             Our company has existed for more than 5 years already, and we have so much acknowledgement 
+			 from our customers that we are a trusted company and we received returned orders from them.
+          </p>
+        </div>
+        <button class="accordion">How much time does it take to finish our orders? </button>
+        <div class="panel">
+          <p>
+            Our company will deliver them to you at least a week or earlier than your target time
+			and we can assure you of it.
+          </p>
+        </div>
+        <button class="accordion">
+          Would you mention one company that ordered from you in the last couple of weeks? 
+        </button>
+        <div class="panel">
+          <p>
+            We can provide you with information about it, as you wish, if the company from other sides agree on it.
+          </p>
+        </div>
+        <button class="accordion">
+          Do we need to visit your office before placing our orders?
+        </button>
+        <div class="panel">
+          <p>
+             No, you can place your order online, and pay it using your credit cards to our account provided.
+          </p>
+		<script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        </script>
       </main>
 
       <footer>
         <p class="copy-write">
           &copy; 2023 The Menu Maker - Ranilo Ator Policarpio - Section C1
-          <a href="site-plan.html">Site Plan</a>
+		  <a href="site-plan.html">| Site Plan</a>
         </p>
 
         <div class="social">
@@ -137,4 +205,3 @@
     </div>
   </body>
 </html>
-
