@@ -385,3 +385,112 @@ footer .social img {
 .test{
   align-items: center;
 }
+/*contact us*/
+
+form {
+    /* Just to center the form on the page */
+    /* To see the outline of the form */
+    padding:5px;
+    border: 2px solid #3A5A40;
+    grid-column:2/3;
+    grid-row:1;
+   
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    
+  
+  
+  }
+  
+  input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    /* To give the same size to all text fields */
+    width: 170px;
+    box-sizing: border-box;
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #F9D43E;
+    
+  }
+  
+  textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+    /* To give enough room to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+  }
+  
+  .moveDown {
+    margin-top: 3em;
+  }
+  .contact-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-gap:1em;
+  }
+  
+  .menu-contact-1 {
+    grid-column:1/2;
+    grid-row:1;
+    margin:10px;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .menu-contact-2{
+    grid-column:3/4;
+    grid-row:1;
+    margin:10px;
+   
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  
+  .contact{
+    text-align: center;
+    margin-top:0;
+   
+  }
+  
+  
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
