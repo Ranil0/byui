@@ -32,7 +32,7 @@ function getCurrentWeather() {
 }
 
 function getWeatherForecast() {
-  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Mandaue&appid=54da382318799586745f2112ab1d86ec&units=imperial';
+  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=54da382318799586745f2112ab1d86ec&units=imperial';
 
   fetch(url)
     .then(response => response.json())
