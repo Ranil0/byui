@@ -20,7 +20,7 @@ function getCurrentWeather() {
         </div>
         <div id="current-weather-section">
           <p>${description.toUpperCase()}</p>
-          <p>${temperature.toFixed(1)} °C</p>
+          <p>${temperature.toFixed(1)} °F</p>
           <p>Humidity: ${humidity}%</p>
         </div>
       `;
@@ -73,7 +73,7 @@ function getWeatherForecast() {
             <img src="https://openweathermap.org/img/w/${image}.png" alt="Image representing the weather: ${description}">
           </div>
           <div class="forecast-section">
-            <p>${temperature.toFixed(1)} °C</p>
+            <p>${temperature.toFixed(1)} °F</p>
           </div>
           `;
 
