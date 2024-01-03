@@ -20,7 +20,7 @@ function getCurrentWeather() {
         </div>
         <div id="current-weather-section">
           <p>${description.toUpperCase()}</p>
-          <p>${temperature.toFixed(1)} °F</p>
+          <p>${temperature.toFixed(1)} °C</p>
           <p>Humidity: ${humidity}%</p>
         </div>
       `;
@@ -32,7 +32,7 @@ function getCurrentWeather() {
 }
 
 function getWeatherForecast() {
-  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=54da382318799586745f2112ab1d86ec&units=imperial';
+  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Mandaue&appid=54da382318799586745f2112ab1d86ec&units=imperial';
 
   fetch(url)
     .then(response => response.json())
@@ -73,7 +73,7 @@ function getWeatherForecast() {
             <img src="https://openweathermap.org/img/w/${image}.png" alt="Image representing the weather: ${description}">
           </div>
           <div class="forecast-section">
-            <p>${temperature.toFixed(1)} °F</p>
+            <p>${temperature.toFixed(1)} °C</p>
           </div>
           `;
 
