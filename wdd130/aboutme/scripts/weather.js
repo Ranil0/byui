@@ -1,5 +1,5 @@
 function getCurrentWeather() {
-  const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=54da382318799586745f2112ab1d86ec&units=imperial';
+  const url = 'https://api.openweathermap.org/data/2.5/weather?q=Cebu&appid=54da382318799586745f2112ab1d86ec&units=metric';
 
   fetch(url)
     .then(response => response.json())
@@ -32,7 +32,7 @@ function getCurrentWeather() {
 }
 
 function getWeatherForecast() {
-  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=54da382318799586745f2112ab1d86ec&units=imperial';
+  const url = 'https://api.openweathermap.org/data/2.5/forecast?q=Cebu&appid=54da382318799586745f2112ab1d86ec&units=metric';
 
   fetch(url)
     .then(response => response.json())
@@ -89,7 +89,6 @@ function getWeatherForecast() {
       console.log('Error fetching weather forecast:', error);
     });
 }
-
 
 getCurrentWeather();
 getWeatherForecast();
