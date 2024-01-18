@@ -1,1 +1,1 @@
-Hello
+Hello! My name is Ranilo policarpio. I am an online student of BYU-Idaho taking up Web Development leading to Software Development in the future. BYU-Idaho is shaping me up to become such person to help people in every way from the learning that I have accumulated overtime. Nice to meet you!
